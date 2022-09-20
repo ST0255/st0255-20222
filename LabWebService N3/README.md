@@ -12,8 +12,6 @@
 1. [Introducción](#introduction)
 2. [Recursos](#resources)
 3. [Desarrollo](#development) <br>
-    3.1 [Instancia de una máquina virtual EC2](#instance)<br>
-    3.1. [Instancia de una máquina virtual EC2](#instance)
 
 *******
 

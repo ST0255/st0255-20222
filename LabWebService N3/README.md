@@ -187,7 +187,7 @@ Ahora, desde el navegador agregue la siguiente url: http://MidirecciónIP/test/t
 
 4.	Ahora realice el proceso para el recurso que esta embebido en la página (la imagen)
 
-    ![Petición Imagen en Página Web](img/img_peticionespagina.png)
+    ![Petición Imagen en Página Web](img/img_peticionimg.png)
 
 5.	Analizar la interacción del protocolo http con Wireshark.
 

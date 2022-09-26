@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../static/css/indexstyles.css" />
+		<title>MiCompany</title>
+	</head>
+
+	<body>
+		<h1>MiCompany.tk</h1>
+		<p>
+			This application allow us to know what are you thinking about the different products that you are consuming from our company.
+			Please, fill the form and let us to improve your experience!
+		</p>
+
+		<div class="container">
+			<form action="/form" method= post>
+			<div class="row">
+			  <div class="col-25">
+				<label for="fname">First Name</label>
+			  </div>
+			  <div class="col-75">
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-25">
+				<label for="lname">Last Name</label>
+			  </div>
+			  <div class="col-75">
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-25">
+				<label for="country">Country</label>
+			  </div>
+			  <div class="col-75">
+				<select id="country" name="country">
+				  <option value="australia">Australia</option>
+				  <option value="canada">Canada</option>
+				  <option value="usa">USA</option>
+				  <option value="colombia">Colombia</option>
+				</select>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-25">
+				<label for="subject">Subject</label>
+			  </div>
+			  <div class="col-75">
+				<textarea id="subject" name="subject" placeholder="Write your thoughts.." style="height:200px"></textarea>
+			  </div>
+			</div>
+			<br>
+			<div class="row">
+			  <input type="submit" value="Submit">
+			</div>
+			</form>
+		  </div>		
+		
+	</body>
+</html>
